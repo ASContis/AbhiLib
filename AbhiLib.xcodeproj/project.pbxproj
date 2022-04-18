@@ -16,6 +16,7 @@
 		67F7A52E280D7D3200F81750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F7A52C280D7D3200F81750 /* Main.storyboard */; };
 		67F7A530280D7D3400F81750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67F7A52F280D7D3400F81750 /* Assets.xcassets */; };
 		67F7A533280D7D3400F81750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F7A531280D7D3400F81750 /* LaunchScreen.storyboard */; };
+		67F7A539280D7DF800F81750 /* AbhiLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F7A538280D7DF800F81750 /* AbhiLab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		67F7A52F280D7D3400F81750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67F7A532280D7D3400F81750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67F7A534280D7D3400F81750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67F7A538280D7DF800F81750 /* AbhiLab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbhiLab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				67F7A50B280D7D0100F81750 /* AbhiLib.h */,
+				67F7A538280D7DF800F81750 /* AbhiLab.swift */,
 			);
 			path = AbhiLib;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				TargetAttributes = {
 					67F7A507280D7D0100F81750 = {
 						CreatedOnToolsVersion = 13.3;
+						LastSwiftMigration = 1330;
 					};
 					67F7A50F280D7D0100F81750 = {
 						CreatedOnToolsVersion = 13.3;
@@ -259,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67F7A539280D7DF800F81750 /* AbhiLab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +438,7 @@
 		67F7A51B280D7D0100F81750 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -452,6 +458,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,6 +467,7 @@
 		67F7A51C280D7D0100F81750 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -487,6 +495,7 @@
 		67F7A51E280D7D0100F81750 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -502,6 +511,7 @@
 		67F7A51F280D7D0100F81750 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
