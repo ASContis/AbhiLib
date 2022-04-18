@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E44477348BAADEDD2A4E560 /* Pods_AbhiLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E196072CC6689851893EBF6 /* Pods_AbhiLib.framework */; };
 		67F7A511280D7D0100F81750 /* AbhiLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F7A508280D7D0100F81750 /* AbhiLib.framework */; };
 		67F7A516280D7D0100F81750 /* AbhiLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F7A515280D7D0100F81750 /* AbhiLibTests.swift */; };
 		67F7A517280D7D0100F81750 /* AbhiLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 67F7A50B280D7D0100F81750 /* AbhiLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -17,6 +18,8 @@
 		67F7A530280D7D3400F81750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67F7A52F280D7D3400F81750 /* Assets.xcassets */; };
 		67F7A533280D7D3400F81750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F7A531280D7D3400F81750 /* LaunchScreen.storyboard */; };
 		67F7A539280D7DF800F81750 /* AbhiLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F7A538280D7DF800F81750 /* AbhiLab.swift */; };
+		6B49553F6D465B73FB0C0DAE /* Pods_AbhiLibExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B0F63355295F1814FA5535D /* Pods_AbhiLibExample.framework */; };
+		D296AFD2F3AA97A85D75127E /* Pods_AbhiLib_AbhiLibTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86160E637AA3A081EE2692C /* Pods_AbhiLib_AbhiLibTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A69E3802D589D663320E09B /* Pods-AbhiLib-AbhiLibTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbhiLib-AbhiLibTests.release.xcconfig"; path = "Target Support Files/Pods-AbhiLib-AbhiLibTests/Pods-AbhiLib-AbhiLibTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F1B4D611EB559B33F26732B /* Pods-AbhiLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbhiLib.release.xcconfig"; path = "Target Support Files/Pods-AbhiLib/Pods-AbhiLib.release.xcconfig"; sourceTree = "<group>"; };
+		3754F95CFDF5A528E9355F93 /* Pods-AbhiLibExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbhiLibExample.debug.xcconfig"; path = "Target Support Files/Pods-AbhiLibExample/Pods-AbhiLibExample.debug.xcconfig"; sourceTree = "<group>"; };
+		4C7F88D0DCDC7841B9175BF8 /* Pods-AbhiLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbhiLib.debug.xcconfig"; path = "Target Support Files/Pods-AbhiLib/Pods-AbhiLib.debug.xcconfig"; sourceTree = "<group>"; };
 		67F7A508280D7D0100F81750 /* AbhiLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AbhiLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67F7A50B280D7D0100F81750 /* AbhiLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbhiLib.h; sourceTree = "<group>"; };
 		67F7A510280D7D0100F81750 /* AbhiLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbhiLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +50,11 @@
 		67F7A532280D7D3400F81750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67F7A534280D7D3400F81750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67F7A538280D7DF800F81750 /* AbhiLab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbhiLab.swift; sourceTree = "<group>"; };
+		7B0F63355295F1814FA5535D /* Pods_AbhiLibExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbhiLibExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		845DF65A99B7BAE16DD6F9A9 /* Pods-AbhiLibExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbhiLibExample.release.xcconfig"; path = "Target Support Files/Pods-AbhiLibExample/Pods-AbhiLibExample.release.xcconfig"; sourceTree = "<group>"; };
+		9E196072CC6689851893EBF6 /* Pods_AbhiLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbhiLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8E5F9DD1D4421A42B78FD73 /* Pods-AbhiLib-AbhiLibTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbhiLib-AbhiLibTests.debug.xcconfig"; path = "Target Support Files/Pods-AbhiLib-AbhiLibTests/Pods-AbhiLib-AbhiLibTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D86160E637AA3A081EE2692C /* Pods_AbhiLib_AbhiLibTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbhiLib_AbhiLibTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E44477348BAADEDD2A4E560 /* Pods_AbhiLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +71,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67F7A511280D7D0100F81750 /* AbhiLib.framework in Frameworks */,
+				D296AFD2F3AA97A85D75127E /* Pods_AbhiLib_AbhiLibTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +79,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B49553F6D465B73FB0C0DAE /* Pods_AbhiLibExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B7B80293DE620F06E14FC76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E196072CC6689851893EBF6 /* Pods_AbhiLib.framework */,
+				D86160E637AA3A081EE2692C /* Pods_AbhiLib_AbhiLibTests.framework */,
+				7B0F63355295F1814FA5535D /* Pods_AbhiLibExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A7868488CDDA6120AA034AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C7F88D0DCDC7841B9175BF8 /* Pods-AbhiLib.debug.xcconfig */,
+				1F1B4D611EB559B33F26732B /* Pods-AbhiLib.release.xcconfig */,
+				A8E5F9DD1D4421A42B78FD73 /* Pods-AbhiLib-AbhiLibTests.debug.xcconfig */,
+				1A69E3802D589D663320E09B /* Pods-AbhiLib-AbhiLibTests.release.xcconfig */,
+				3754F95CFDF5A528E9355F93 /* Pods-AbhiLibExample.debug.xcconfig */,
+				845DF65A99B7BAE16DD6F9A9 /* Pods-AbhiLibExample.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		67F7A4FE280D7D0100F81750 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +117,8 @@
 				67F7A514280D7D0100F81750 /* AbhiLibTests */,
 				67F7A525280D7D3200F81750 /* AbhiLibExample */,
 				67F7A509280D7D0100F81750 /* Products */,
+				5A7868488CDDA6120AA034AD /* Pods */,
+				2B7B80293DE620F06E14FC76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67F7A51A280D7D0100F81750 /* Build configuration list for PBXNativeTarget "AbhiLib" */;
 			buildPhases = (
+				45D3197507E0BD5BC528F792 /* [CP] Check Pods Manifest.lock */,
 				67F7A503280D7D0100F81750 /* Headers */,
 				67F7A504280D7D0100F81750 /* Sources */,
 				67F7A505280D7D0100F81750 /* Frameworks */,
@@ -158,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67F7A51D280D7D0100F81750 /* Build configuration list for PBXNativeTarget "AbhiLibTests" */;
 			buildPhases = (
+				F93BA3FDDED172CB0495D36B /* [CP] Check Pods Manifest.lock */,
 				67F7A50C280D7D0100F81750 /* Sources */,
 				67F7A50D280D7D0100F81750 /* Frameworks */,
 				67F7A50E280D7D0100F81750 /* Resources */,
+				6B2A13F66C0138FC4DC27346 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67F7A535280D7D3400F81750 /* Build configuration list for PBXNativeTarget "AbhiLibExample" */;
 			buildPhases = (
+				CAE5DFC7872E54EDFFC8C496 /* [CP] Check Pods Manifest.lock */,
 				67F7A520280D7D3200F81750 /* Sources */,
 				67F7A521280D7D3200F81750 /* Frameworks */,
 				67F7A522280D7D3200F81750 /* Resources */,
+				4A9EC370F68AEE0832154412 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,6 +303,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45D3197507E0BD5BC528F792 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AbhiLib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A9EC370F68AEE0832154412 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AbhiLibExample/Pods-AbhiLibExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AbhiLibExample/Pods-AbhiLibExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbhiLibExample/Pods-AbhiLibExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B2A13F66C0138FC4DC27346 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AbhiLib-AbhiLibTests/Pods-AbhiLib-AbhiLibTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AbhiLib-AbhiLibTests/Pods-AbhiLib-AbhiLibTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbhiLib-AbhiLibTests/Pods-AbhiLib-AbhiLibTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAE5DFC7872E54EDFFC8C496 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AbhiLibExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F93BA3FDDED172CB0495D36B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AbhiLib-AbhiLibTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		67F7A504280D7D0100F81750 /* Sources */ = {
@@ -437,6 +586,7 @@
 		};
 		67F7A51B280D7D0100F81750 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C7F88D0DCDC7841B9175BF8 /* Pods-AbhiLib.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +616,7 @@
 		};
 		67F7A51C280D7D0100F81750 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F1B4D611EB559B33F26732B /* Pods-AbhiLib.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +645,7 @@
 		};
 		67F7A51E280D7D0100F81750 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8E5F9DD1D4421A42B78FD73 /* Pods-AbhiLib-AbhiLibTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -510,6 +662,7 @@
 		};
 		67F7A51F280D7D0100F81750 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A69E3802D589D663320E09B /* Pods-AbhiLib-AbhiLibTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +679,7 @@
 		};
 		67F7A536280D7D3400F81750 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3754F95CFDF5A528E9355F93 /* Pods-AbhiLibExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -553,6 +707,7 @@
 		};
 		67F7A537280D7D3400F81750 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 845DF65A99B7BAE16DD6F9A9 /* Pods-AbhiLibExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
